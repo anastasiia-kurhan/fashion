@@ -344,3 +344,29 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     top: 0;
     left: 0; }
+
+.topic1 {
+  padding: 120px 0;
+  background-color: #f7f7f7; }
+  @media (max-width: 900px) {
+    .topic1 {
+      padding: 80px 0; } }
+  @media (max-width: 600px) {
+    .topic1 {
+      padding: 30px 0; } }
+
+.block {
+  text-align: center;
+  color: #353738; }
+  .block__icon {
+    margin: 0px 0px 30px 0px; }
+  .block__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    margin: 0px 0px 18px 0px; }
+  .block__text {
+    font-size: 18px;
+    line-height: 34px; }
